@@ -58,6 +58,7 @@
 		93BC7DEB1D65A12F00414162 /* HLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPerson.h; sourceTree = "<group>"; };
 		93BC7DEC1D65A12F00414162 /* HLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPerson.m; sourceTree = "<group>"; };
 		93BC7DED1D65A12F00414162 /* RuntimeModelNscoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeModelNscoding.h; sourceTree = "<group>"; };
+		93BC7DEF1D66F74400414162 /* HLArchiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLArchiveModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 				93BC7DEB1D65A12F00414162 /* HLPerson.h */,
 				93BC7DEC1D65A12F00414162 /* HLPerson.m */,
 				93BC7DED1D65A12F00414162 /* RuntimeModelNscoding.h */,
+				93BC7DEF1D66F74400414162 /* HLArchiveModel.h */,
 			);
 			path = RuntimeHelper;
 			sourceTree = "<group>";
@@ -428,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RuntimeHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuntimeHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RuntimeHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuntimeHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +516,7 @@
 				93BC7DE11D659FD400414162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93BC7DE21D659FD400414162 /* Build configuration list for PBXNativeTarget "RuntimeHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				93BC7DE41D659FD400414162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93BC7DE51D659FD400414162 /* Build configuration list for PBXNativeTarget "RuntimeHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				93BC7DE71D659FD400414162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
