@@ -7,8 +7,8 @@
 //
 
 #import "HLPerson.h"
-//#import "RuntimeModelNscoding.h"
-#import "HLArchiveModel.h"
+#import "RuntimeModelNscoding.h"
+//#import "HLArchiveModel.h"
 @implementation HLPerson
 
 -(void)encodeWithCoder:(NSCoder *)aCoder
@@ -23,7 +23,7 @@
 }
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"姓名: %@ 年龄: %d",_name,_age];
+    return [NSString stringWithFormat:@"姓名: %@ 年龄: %d 地址:%@ float: %f number:%@ array:%@",_name,_age,_address,_loat,_number,_array];
 }
 
 

@@ -37,11 +37,15 @@
  *  归档
  */
 - (void)_objKeyedArchiver{
-    
-        HLPerson * model = [[HLPerson alloc]init];
-        model.name =@"哈哈哈";
-        model.age = 18;
-        model.address = @"beijng";
+
+    HLPerson * model = [[HLPerson alloc]init];
+    model.name =@"哈哈哈";
+    model.age = 18;
+    model.address = @"beijng";
+    model.intesger = 19;
+    model.number = [NSNumber numberWithInteger:13];
+    model.loat = 0.8;
+    model.array = @[@"123",@"456"];
     
         NSUserDefaults *userd = [NSUserDefaults standardUserDefaults];
     
