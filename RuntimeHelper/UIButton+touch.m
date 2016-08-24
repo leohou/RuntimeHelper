@@ -60,5 +60,4 @@
 - (BOOL)isIgnoreEvent{
     return [objc_getAssociatedObject(self, _cmd) boolValue];
 }
-
 @end

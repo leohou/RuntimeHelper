@@ -25,6 +25,12 @@
 {
     return [NSString stringWithFormat:@"姓名: %@ 年龄: %d 地址:%@ float: %f number:%@ array:%@",_name,_age,_address,_loat,_number,_array];
 }
+-(void)test
+{
+    
+    NSLog(@"log---->%@",@"我获取到Person里的方法了");
+    
+}
 
 
 @end
