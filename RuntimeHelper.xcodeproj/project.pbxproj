@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93332E1C1D6D3044006C5805 /* NSString+numberDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 93332E1B1D6D3044006C5805 /* NSString+numberDivision.m */; };
 		93BC7DB71D659FD400414162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7DB61D659FD400414162 /* main.m */; };
 		93BC7DBA1D659FD400414162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7DB91D659FD400414162 /* AppDelegate.m */; };
 		93BC7DBD1D659FD400414162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7DBC1D659FD400414162 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93332E1A1D6D3044006C5805 /* NSString+numberDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+numberDivision.h"; sourceTree = "<group>"; };
+		93332E1B1D6D3044006C5805 /* NSString+numberDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+numberDivision.m"; sourceTree = "<group>"; };
 		93BC7DB21D659FD400414162 /* RuntimeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BC7DB61D659FD400414162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93BC7DB81D659FD400414162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93332E191D6D3033006C5805 /* NSStringCategory */ = {
+			isa = PBXGroup;
+			children = (
+				93332E1A1D6D3044006C5805 /* NSString+numberDivision.h */,
+				93332E1B1D6D3044006C5805 /* NSString+numberDivision.m */,
+			);
+			path = NSStringCategory;
+			sourceTree = "<group>";
+		};
 		93BC7DA91D659FD400414162 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +121,7 @@
 		93BC7DB41D659FD400414162 /* RuntimeHelper */ = {
 			isa = PBXGroup;
 			children = (
+				93332E191D6D3033006C5805 /* NSStringCategory */,
 				93BC7DB81D659FD400414162 /* AppDelegate.h */,
 				93BC7DB91D659FD400414162 /* AppDelegate.m */,
 				93BC7DBB1D659FD400414162 /* ViewController.h */,
@@ -287,6 +300,7 @@
 				93BC7DBD1D659FD400414162 /* ViewController.m in Sources */,
 				93BC7DEE1D65A12F00414162 /* HLPerson.m in Sources */,
 				93BC7DBA1D659FD400414162 /* AppDelegate.m in Sources */,
+				93332E1C1D6D3044006C5805 /* NSString+numberDivision.m in Sources */,
 				93BC7DB71D659FD400414162 /* main.m in Sources */,
 				93BC7DEA1D65A09C00414162 /* UIButton+touch.m in Sources */,
 			);
