@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9313163E1D6FE04500FD01B7 /* MethodExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9313163D1D6FE04500FD01B7 /* MethodExchange.m */; };
 		93332E1C1D6D3044006C5805 /* NSString+numberDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 93332E1B1D6D3044006C5805 /* NSString+numberDivision.m */; };
 		93BC7DB71D659FD400414162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7DB61D659FD400414162 /* main.m */; };
 		93BC7DBA1D659FD400414162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7DB91D659FD400414162 /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9313163C1D6FE04500FD01B7 /* MethodExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodExchange.h; sourceTree = "<group>"; };
+		9313163D1D6FE04500FD01B7 /* MethodExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodExchange.m; sourceTree = "<group>"; };
 		93332E1A1D6D3044006C5805 /* NSString+numberDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+numberDivision.h"; sourceTree = "<group>"; };
 		93332E1B1D6D3044006C5805 /* NSString+numberDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+numberDivision.m"; sourceTree = "<group>"; };
 		93BC7DB21D659FD400414162 /* RuntimeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +140,8 @@
 				93BC7DEC1D65A12F00414162 /* HLPerson.m */,
 				93BC7DED1D65A12F00414162 /* RuntimeModelNscoding.h */,
 				93BC7DEF1D66F74400414162 /* HLArchiveModel.h */,
+				9313163C1D6FE04500FD01B7 /* MethodExchange.h */,
+				9313163D1D6FE04500FD01B7 /* MethodExchange.m */,
 			);
 			path = RuntimeHelper;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 			files = (
 				93BC7DBD1D659FD400414162 /* ViewController.m in Sources */,
 				93BC7DEE1D65A12F00414162 /* HLPerson.m in Sources */,
+				9313163E1D6FE04500FD01B7 /* MethodExchange.m in Sources */,
 				93BC7DBA1D659FD400414162 /* AppDelegate.m in Sources */,
 				93332E1C1D6D3044006C5805 /* NSString+numberDivision.m in Sources */,
 				93BC7DB71D659FD400414162 /* main.m in Sources */,

@@ -11,6 +11,7 @@
 #import "UIButton+touch.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
+#import "MethodExchange.h"
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *clickButton;
 
@@ -27,10 +28,15 @@
     //使用runtime 添加方法
 //    [self addMethod];
     
-    
+    //方法交换
+    //调用exchangeMethod1 会调用_exchangeMethod2的方法 这就是方法交换了
+    MethodExchange * change = [[MethodExchange alloc]init];
+    [change exchangeMethod1];
 }
 
 
+ 
+ 
 /**
  *  使用rutime 给类添加 方法
  *
